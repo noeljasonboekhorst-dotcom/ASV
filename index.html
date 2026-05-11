@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASV Hamm Tennis — Sommersaison 2026</title>
+  <meta name="description" content="ASV Hamm Tennis e.V. — Tennisverein in Hamm Werries. Schnuppertraining, Mannschaften, News rund um die Sommersaison 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css?v=3">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__brand">
+        <span class="nav__logo"><img src="Bilder/Logo.avif" alt="ASV Hamm Tennis Logo"></span>
+        <span class="nav__brand-text">
+          ASV Hamm Tennis
+          <small>seit 1972</small>
+        </span>
+      </a>
+      <nav class="nav__menu" aria-label="Hauptmenü">
+        <a href="index.html" class="nav__link is-active">Home</a>
+        <a href="mannschaften.html" class="nav__link">Mannschaften</a>
+        <a href="vorstand.html" class="nav__link">Vorstand</a>
+        <a href="platzpflege.html" class="nav__link">Platzpflege</a>
+        <a href="kontakt.html" class="nav__link">Kontakt</a>
+        <a href="kontakt.html#schnupper" class="nav__cta">Schnuppertraining</a>
+      </nav>
+      <button class="nav__burger" aria-label="Menü öffnen" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round">
+          <line x1="4" y1="7" x2="20" y2="7"/>
+          <line x1="4" y1="12" x2="20" y2="12"/>
+          <line x1="4" y1="17" x2="20" y2="17"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__grid">
+        <div class="hero__content">
+          <span class="eyebrow">Sommersaison 2026 <span style="color: var(--ink-mute); font-weight: 400; letter-spacing: 0; text-transform: none; margin-left: 0.5rem;">— Hamm Werries</span></span>
+          <h1 class="display-xl hero__title">
+            Tennis,<br>
+            <em>Gemeinschaft,</em><br>
+            Leidenschaft.
+          </h1>
+          <p class="lead hero__lead">
+            Beim ASV Hamm Tennis findest du mehr als nur Sandplätze: einen Verein, der Freundschaften wachsen lässt, Talente fördert und seit über 50 Jahren Tennisbegeisterte aller Altersklassen zusammenbringt.
+          </p>
+          <div class="hero__actions">
+            <a href="kontakt.html#schnupper" class="btn btn--primary">
+              Schnuppertraining starten
+              <span class="btn__arrow">→</span>
+            </a>
+            <a href="#news" class="btn btn--ghost">Aktuelles ansehen</a>
+          </div>
+          <div class="hero__stats">
+            <div>
+              <div class="hero__stat-num">50+</div>
+              <div class="hero__stat-label">Jahre Verein</div>
+            </div>
+            <div>
+              <div class="hero__stat-num">6</div>
+              <div class="hero__stat-label">Sandplätze</div>
+            </div>
+            <div>
+              <div class="hero__stat-num">7</div>
+              <div class="hero__stat-label">Mannschaften</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__media">
+          <img src="Bilder/Drohne-1.png" alt="Luftaufnahme der ASV Hamm Tennisanlage mit sechs Sandplätzen">
+          <div class="hero__badge">
+            <span class="hero__badge-dot hero__badge-dot--live"></span>
+            <span class="hero__badge-text">
+              <strong>Plätze sind offen!</strong>
+              <small>Sommersaison 2026 läuft</small>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Marquee -->
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span class="marquee__item">Sommersaison 2026</span>
+          <span class="marquee__item">Schnuppertennis · Samstags</span>
+          <span class="marquee__item">Sommerfest 18.07.2026</span>
+          <span class="marquee__item">Abschlagfest 03.10.2026</span>
+          <span class="marquee__item">Weihnachtsfeier 28.11.2026</span>
+          <span class="marquee__item">Herren 40 — Platz 3 Kreisliga</span>
+          <!-- duplicate for seamless loop -->
+          <span class="marquee__item">Sommersaison 2026</span>
+          <span class="marquee__item">Schnuppertennis · Samstags</span>
+          <span class="marquee__item">Sommerfest 18.07.2026</span>
+          <span class="marquee__item">Abschlagfest 03.10.2026</span>
+          <span class="marquee__item">Weihnachtsfeier 28.11.2026</span>
+          <span class="marquee__item">Herren 40 — Platz 3 Kreisliga</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News / Aktuelles -->
+  <section class="section section--cream" id="news">
+    <div class="container">
+      <div class="section__header section__header--split reveal">
+        <div>
+          <span class="eyebrow">Aktuelles</span>
+          <h2 class="display-lg" style="margin-top: 1rem;">Was beim ASV gerade läuft</h2>
+        </div>
+        <p class="lead">
+          Frische News aus dem Vereinsleben — von der Jahreshauptversammlung bis zu Match-Berichten und Schnupperangeboten.
+        </p>
+      </div>
+
+      <div class="bento">
+        <article class="bento__item bento__item--feature reveal" data-news="jhv-2026">
+          <div class="bento__media">
+            <img src="Bilder/4e8e68e0-e546-4b65-86cc-9baea3d72878.avif" alt="ASV Vereinsleben">
+          </div>
+          <div class="bento__body">
+            <span class="bento__date">Jahreshauptversammlung · 2026</span>
+            <h3 class="bento__title">Die Vorfreude auf die neue Saison steigt 🎾</h3>
+            <p class="bento__excerpt">
+              Die Jahreshauptversammlung 2026 ist beendet — wir konnten Liam als 2. Jugendwart für den Vorstand gewinnen. Neue Sonnenschirme sind verankert (Danke an Ralf, Theo und Freddy fürs Einbetonieren und Martin fürs Besorgen). Es ist somit alles für eine ambitionierte Sommersaison 2026 angerichtet 😍🎾!
+            </p>
+            <button class="bento__more">Mehr lesen <span class="bento__more-arrow">→</span></button>
+          </div>
+        </article>
+
+        <article class="bento__item bento__item--small reveal" data-news="herren40">
+          <div class="bento__media">
+            <img src="Bilder/herren 40 aufstieg.avif" alt="Herren 40 Mannschaft">
+          </div>
+          <div class="bento__body">
+            <span class="bento__date">Wintersaison 2025/26</span>
+            <h3 class="bento__title">Herren 40 bestätigen die Klasse</h3>
+            <p class="bento__excerpt">2 Siege, 2 Unentschieden, 1 Niederlage — Platz 3 Kreisliga 1.</p>
+            <button class="bento__more">Mehr lesen <span class="bento__more-arrow">→</span></button>
+          </div>
+        </article>
+
+        <article class="bento__item bento__item--small reveal" data-news="u15">
+          <div class="bento__media">
+            <img src="Bilder/ASV U 15 Mannschaft auswärtssieg beim Tus59 Hamm.webp" alt="U15 Auswärtssieg">
+          </div>
+          <div class="bento__body">
+            <span class="bento__date">U15 Mannschaft</span>
+            <h3 class="bento__title">Auswärtssieg beim TuS 59 Hamm</h3>
+            <p class="bento__excerpt">Starke Leistung der Jugend — die nächste Generation steht bereit.</p>
+            <button class="bento__more">Mehr lesen <span class="bento__more-arrow">→</span></button>
+          </div>
+        </article>
+
+        <article class="bento__item bento__item--med reveal" data-news="lk-turnier-2024">
+          <div class="bento__media">
+            <img src="Bilder/LK Turnier beim ASV.avif" alt="LK Turnier">
+          </div>
+          <div class="bento__body">
+            <span class="bento__date">10.–11. August 2024</span>
+            <h3 class="bento__title">2. LK Tennis Turniere — ein gelungenes Wochenende</h3>
+            <p class="bento__excerpt">
+              30 Teilnehmer im Einzel, 14 Doppel — pünktlich um 9 Uhr ging's los, Werner Sauerstein sorgte fürs leibliche Wohl.
+            </p>
+            <button class="bento__more">Mehr lesen <span class="bento__more-arrow">→</span></button>
+          </div>
+        </article>
+
+        <article class="bento__item bento__item--med reveal" data-news="pokalfinale">
+          <div class="bento__media">
+            <img src="Bilder/Herren 55-1.avif" alt="Herren 55 Aufstieg">
+          </div>
+          <div class="bento__body">
+            <span class="bento__date">Highlight Saison 2024</span>
+            <h3 class="bento__title">Pokalfinale in Münster & Herren 40 Aufstieg 🏆</h3>
+            <p class="bento__excerpt">
+              Was für eine Saison: Pokalfinale in Münster und der Aufstieg der Herren 40 — dieser Verein macht stolz und glücklich.
+            </p>
+            <button class="bento__more">Mehr lesen <span class="bento__more-arrow">→</span></button>
+          </div>
+        </article>
+
+        <article class="bento__item bento__item--full reveal" data-news="asv-challenge">
+          <div class="bento__media-strip">
+            <div><img src="Bilder/Challenge-bild1.avif" alt="ASV Challenge — Eindruck 1" loading="lazy"></div>
+            <div><img src="Bilder/Challenge-bild 2.avif" alt="ASV Challenge — Eindruck 2" loading="lazy"></div>
+            <div><img src="Bilder/challenge-bild 3.avif" alt="ASV Challenge — Eindruck 3" loading="lazy"></div>
+          </div>
+          <div class="bento__body">
+            <span class="bento__date">ASV Challenge</span>
+            <h3 class="bento__title">Die ASV Challenge — Eindrücke aus dem Verein 🎾</h3>
+            <p class="bento__excerpt">
+              Drei Momente aus der Challenge: gemeinsame Aktionen, voller Einsatz und gute Laune — ASV Hamm, anders als alle Vereine.
+            </p>
+            <button class="bento__more">Mehr lesen <span class="bento__more-arrow">→</span></button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Termine 2026 -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="eyebrow">Termine 2026</span>
+        <h2 class="display-lg" style="margin-top: 1rem;">Save the Date</h2>
+        <p class="lead" style="margin-top: 1rem;">Die immer beliebten Termine, die du dir schon jetzt im Kalender markieren solltest.</p>
+      </div>
+
+      <div class="schedule">
+        <div class="schedule__card reveal">
+          <div class="schedule__date">18</div>
+          <div class="schedule__month">Juli 2026</div>
+          <h3 class="schedule__title">Sommerfest</h3>
+          <span class="schedule__time">🎉 Ab 11:00 Uhr</span>
+        </div>
+        <div class="schedule__card reveal">
+          <div class="schedule__date">03</div>
+          <div class="schedule__month">Oktober 2026</div>
+          <h3 class="schedule__title">Abschlagfest</h3>
+          <span class="schedule__time">🎾 Ab 11:00 Uhr</span>
+        </div>
+        <div class="schedule__card reveal">
+          <div class="schedule__date">28</div>
+          <div class="schedule__month">November 2026</div>
+          <h3 class="schedule__title">Weihnachtsfeier</h3>
+          <span class="schedule__time">🌲 Ab 19:00 Uhr <span style="color: var(--ink-mute); margin-left: 4px;">(nicht 11 😉)</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schnuppertennis CTA -->
+  <section class="section section--cream" id="schnupper">
+    <div class="container">
+      <div class="cta reveal">
+        <div class="cta__content">
+          <span class="eyebrow">Einfach vorbeikommen</span>
+          <h2 class="cta__title" style="margin-top: 1rem;">Schnuppertennis — Bälle und Schläger werden gestellt 🎾</h2>
+          <p class="cta__lead">
+            Jeden Samstag für Kinder und Jugendliche — keine Vorkenntnisse nötig. Auch für Erwachsene möglich, einfach Termin vereinbaren. Komm vorbei, hab Spaß und lerne Tennis in lockerer Atmosphäre.
+          </p>
+          <div class="cta__contact">
+            <div class="cta__contact-row">
+              <strong>Bis 12 Jahre:</strong> Samstags 10:00 Uhr
+            </div>
+            <div class="cta__contact-row">
+              <strong>Bis 15 Jahre:</strong> Samstags 11:00 Uhr
+            </div>
+            <div class="cta__contact-row">
+              <strong>Erwachsene:</strong> Tim Boekhorst · 📞 072 57 46 464
+            </div>
+          </div>
+          <div style="margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 1rem;">
+            <a href="kontakt.html" class="btn btn--ink">Anmeldung & Kontakt</a>
+            <a href="kontakt.html" class="btn btn--ghost">Anlage besuchen</a>
+          </div>
+        </div>
+        <div class="cta__visual">
+          <img src="Bilder/Screenshot 2026-05-11 070656.png" alt="Tennisschläger auf Sandplatz">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Warum Tennis -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="section__header reveal">
+        <span class="eyebrow">Warum Tennis?</span>
+        <h2 class="display-lg" style="margin-top: 1rem;">Entscheide dich für die schönste Sportart der Welt.</h2>
+      </div>
+
+      <div class="why">
+        <div class="why__visual reveal">
+          <img src="Bilder/Screenshot 2026-05-11 064750.png" alt="ASV Tennismannschaft in der Halle">
+        </div>
+        <div class="why__list">
+          <div class="why__item reveal">
+            <span class="why__num">01</span>
+            <div>
+              <h3>Eine komplexe Sportart</h3>
+              <p>Im Vergleich zu Joggen oder Laufen ist Tennis deutlich komplexer. Neben Anforderungen an die eigene Koordination beobachtet man eine sich ständig verändernde Umgebung — Ball, Mitspieler — und reagiert entsprechend darauf. Schnelle Beschleunigungen, Abbremsen, Ausdauer, Impulsivität: ein großes Spektrum, das man auch ins Privat- und Berufsleben mitnimmt.</p>
+            </div>
+          </div>
+          <div class="why__item reveal">
+            <span class="why__num">02</span>
+            <div>
+              <h3>Ein Sport unter der Sonne</h3>
+              <p>Tennis ist für die unterschiedlichsten Bedürfnisse und Zielgruppen geeignet. Der eine will etwas für seine Fitness tun oder hat Spaß am Wettkampf, der nächste will gemeinsam mit der Familie Sport treiben. Tennis wird zu jeder Tageszeit gespielt — ganzjährig, vom Kindes- bis zum Seniorenalter. Tennis trainiert Kraft, Schnelligkeit, Ausdauer und Koordination.</p>
+            </div>
+          </div>
+          <div class="why__item reveal">
+            <span class="why__num">03</span>
+            <div>
+              <h3>Auch ein Sport für Kinder</h3>
+              <p>Besonders für Kinder bietet Tennis eine hervorragende Basis für viele Herausforderungen des späteren Lebens. Tennis als Individualsportart erfordert und entwickelt Selbstvertrauen sowie die Fähigkeit, mit Druck umzugehen. Kinder lernen, nach Rückschlägen wieder aufzustehen, mit Niederlagen umzugehen und Siege zu feiern — Fähigkeiten für alle Lebensbereiche.</p>
+            </div>
+          </div>
+          <div class="why__item reveal">
+            <span class="why__num">04</span>
+            <div>
+              <h3>Beständiges, nicht enden wollendes Lernen</h3>
+              <p>Tennis ist Fitness-Sport und Erlebnisfaktor zugleich. Tennis in der Jugend gelernt, wird zum Gesundheitssport im Alter — und immer bleibt etwas zu lernen.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galerie -->
+  <section class="section section--cream">
+    <div class="container">
+      <div class="section__header section__header--split reveal">
+        <div>
+          <span class="eyebrow">Impressionen</span>
+          <h2 class="display-lg" style="margin-top: 1rem;">Vereinsleben in Bildern</h2>
+        </div>
+        <p class="lead">
+          Eindrücke aus den letzten Saisons — Turniere, Mannschaftserfolge, Platzarbeiten und gemeinsame Stunden auf der Anlage.
+        </p>
+      </div>
+
+      <div class="gallery-wrap reveal">
+        <div class="gallery" data-gallery>
+          <div class="gallery__item gallery__item--tall" data-lightbox="Bilder/Drohne-1.png">
+            <img src="Bilder/Drohne-1.png" alt="Drohnenaufnahme der Anlage" loading="lazy">
+            <span class="gallery__caption">Unsere Anlage am Wellenbad</span>
+          </div>
+          <div class="gallery__item" data-lightbox="Bilder/Pokalspiel in Pelkum.avif">
+            <img src="Bilder/Pokalspiel in Pelkum.avif" alt="Pokalspiel in Pelkum" loading="lazy">
+            <span class="gallery__caption">Pokalspiel in Pelkum</span>
+          </div>
+          <div class="gallery__item" data-lightbox="Bilder/Mixed Turnier.webp">
+            <img src="Bilder/Mixed Turnier.webp" alt="Mixed Turnier" loading="lazy">
+            <span class="gallery__caption">Mixed Turnier</span>
+          </div>
+          <div class="gallery__item" data-lightbox="Bilder/anschlagtunier-2024.png">
+            <img src="Bilder/anschlagtunier-2024.png" alt="Anschlagturnier 2024" loading="lazy">
+            <span class="gallery__caption">Anschlagturnier 2024</span>
+          </div>
+          <div class="gallery__item" data-lightbox="Bilder/Weihnachtsfeier Kinder.avif">
+            <img src="Bilder/Weihnachtsfeier Kinder.avif" alt="Weihnachtsfeier Kinder" loading="lazy">
+            <span class="gallery__caption">Weihnachtsfeier Kinder</span>
+          </div>
+          <div class="gallery__item" data-lightbox="Bilder/Wintersaison-2024-2025.avif">
+            <img src="Bilder/Wintersaison-2024-2025.avif" alt="Wintersaison 2024/2025" loading="lazy">
+            <span class="gallery__caption">Wintersaison 2024/25</span>
+          </div>
+          <div class="gallery__item" data-lightbox="Bilder/Pokalspiel in Pelkum-2.avif">
+            <img src="Bilder/Pokalspiel in Pelkum-2.avif" alt="Pokalspiel" loading="lazy">
+            <span class="gallery__caption">Spieler & Unterstützer</span>
+          </div>
+        </div>
+        <div class="gallery-nav">
+          <span class="gallery-nav__hint">← Zum Scrollen wischen oder Pfeile nutzen · Bild zum Vergrößern klicken</span>
+          <div class="gallery-nav__buttons">
+            <button class="gallery-nav__btn" data-gallery-prev aria-label="Zurück">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </button>
+            <button class="gallery-nav__btn" data-gallery-next aria-label="Weiter">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div>
+          <div class="footer__brandblock">
+            <span class="footer__logo"><img src="Bilder/Logo.avif" alt="ASV Hamm Tennis Logo"></span>
+            <div class="footer__brand">ASV Hamm Tennis<small>seit 1972</small></div>
+          </div>
+          <p class="footer__about">
+            Anders als alle Vereine. Seit über 50 Jahren Tennisbegeisterung in Hamm Werries — Heimat von Freundschaften, Turnieren und gelebter Vereinskultur.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer__heading">Anlage</h4>
+          <ul class="footer__list">
+            <li><span>Am Wellenbad</span></li>
+            <li><span>59071 Hamm-Werries</span></li>
+            <li><a href="kontakt.html">Anfahrt ansehen →</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Termine 2026</h4>
+          <ul class="footer__list">
+            <li><span>18.07. — Sommerfest</span></li>
+            <li><span>03.10. — Abschlagfest</span></li>
+            <li><span>28.11. — Weihnachtsfeier</span></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Verein</h4>
+          <ul class="footer__list">
+            <li><a href="mannschaften.html">Mannschaften</a></li>
+            <li><a href="vorstand.html">Vorstand</a></li>
+            <li><a href="platzpflege.html">Platzpflege</a></li>
+            <li><a href="kontakt.html#schnupper">Schnuppertraining</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 ASV Hamm Tennis e.V. — Alle Rechte vorbehalten.</span>
+        <div class="footer__bottom-links">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- News Modal -->
+  <div class="news-modal" aria-hidden="true">
+    <div class="news-modal__panel">
+      <button class="news-modal__close" aria-label="Schließen">×</button>
+    </div>
+  </div>
+
+  <!-- News Templates -->
+  <template id="news-jhv-2026">
+    <div class="news-modal__media">
+      <img src="Bilder/4e8e68e0-e546-4b65-86cc-9baea3d72878.avif" alt="ASV Vereinsleben">
+    </div>
+    <div class="news-modal__body">
+      <div class="news-modal__date">Jahreshauptversammlung · 2026</div>
+      <h2 class="news-modal__title">Die Vorfreude auf die neue Saison steigt 🎾</h2>
+      <div class="news-modal__content">
+        <p>Die Jahreshauptversammlung 2026 ist beendet, wir konnten <strong>Liam als 2. Jugendwart</strong> für den Vorstand gewinnen, die Vorfreude auf die neue Saison steigt, neue Sonnenschirme sind verankert (Danke an Ralf, Theo und Freddy fürs Einbetonieren und Martin fürs Besorgen). Es ist somit alles für eine ambitionierte Sommersaison 2026 angerichtet 😍🎾!</p>
+        <p>Nach aktuellem Stand könnte es klappen, dass die Plätze vielleicht sogar schon kommendes Wochenende geöffnet werden. Hier müssen wir noch etwas das Wetter abwarten und informieren rechtzeitig 👍🏻!</p>
+        <h3>Termine 2026</h3>
+        <ul>
+          <li><strong>Sommerfest</strong> — 18.07.2026 · 11 Uhr</li>
+          <li><strong>Abschlagfest</strong> — 03.10.2026 · 11 Uhr</li>
+          <li><strong>Weihnachtsfeier</strong> — 28.11.2026 · 19 Uhr (nicht 11 Uhr 😉)</li>
+        </ul>
+        <p>Wir freuen uns auf eine tolle Sommersaison 2026. Ich bin sicher, es werden auch dieses Jahr Legenden beim ASV geboren 🥳🤩🥰🎾🎾!!!</p>
+      </div>
+    </div>
+  </template>
+
+  <template id="news-herren40">
+    <div class="news-modal__media">
+      <img src="Bilder/herren 40 aufstieg.avif" alt="Herren 40 Mannschaft">
+    </div>
+    <div class="news-modal__body">
+      <div class="news-modal__date">Wintersaison 2025/26</div>
+      <h2 class="news-modal__title">Die Herren 40 bestätigen die Klasse!</h2>
+      <div class="news-modal__content">
+        <p>Mit <strong>2 Siegen, 2 Unentschieden und einer Niederlage</strong> konnten die Herren 40 in der Wintersaison 2025/26 die Klasse in der Kreisliga 1 halten und schlossen den Wettbewerb auf <strong>Platz 3 in der Tabelle</strong> ab.</p>
+        <p><strong>Von links:</strong> André Seiffert, Oliver Schmidt, Jan Wothe, Raimund Dönnebrink, Mike Jenschke, Torsten Kron.</p>
+        <p><strong>Nicht im Bild:</strong> Kai Kleeschulte, Nils Haase.</p>
+      </div>
+    </div>
+  </template>
+
+  <template id="news-u15">
+    <div class="news-modal__media">
+      <img src="Bilder/ASV U 15 Mannschaft auswärtssieg beim Tus59 Hamm.webp" alt="U15 Mannschaft Auswärtssieg">
+    </div>
+    <div class="news-modal__body">
+      <div class="news-modal__date">U15 Mannschaft</div>
+      <h2 class="news-modal__title">Auswärtssieg beim TuS 59 Hamm</h2>
+      <div class="news-modal__content">
+        <p>Die <strong>U15 Mannschaft</strong> des ASV Hamm Tennis konnte einen wichtigen Auswärtssieg beim TuS 59 Hamm einfahren. Die nächste Generation steht bereit — und macht ordentlich Druck.</p>
+        <h3>Jugend Mannschafts-Saison 2024</h3>
+        <p>Bereits in der Jugend-Saison 2024 starteten unsere Talente mit einem <strong>Doppel-Sieg im ersten Mannschaftsspiel</strong>. Glückwunsch Leo und Ben!</p>
+      </div>
+    </div>
+  </template>
+
+  <template id="news-lk-turnier-2024">
+    <div class="news-modal__media">
+      <img src="Bilder/LK Turnier beim ASV.avif" alt="LK Turnier beim ASV">
+    </div>
+    <div class="news-modal__body">
+      <div class="news-modal__date">10.–11. August 2024</div>
+      <h2 class="news-modal__title">2. LK Tennis Turniere beim ASV Hamm</h2>
+      <div class="news-modal__content">
+        <p>Bericht über die LK Tennis Turniere beim ASV Hamm Tennis am 10./11. August 2024:</p>
+        <p>Am Wochenende des 10. und 11. August fand auf der Anlage des ASV Hamm Tennis die <strong>2. Auflage der LK Tennis Turniere</strong> statt. Das Event erstreckte sich über zwei Tage und bot sowohl Spiele im Einzel- als auch im Doppel.</p>
+        <h3>10.08.2024 — Samstag</h3>
+        <p>Der Samstag stand ganz im Zeichen der Einzel-Matches, an denen <strong>30 Teilnehmer</strong> teilnahmen. Pünktlich um 9:00 Uhr begannen die Spiele bei strahlendem Sonnenschein. Alle Teilnehmer zeigten sich äußerst zufrieden und gaben durchweg positives Feedback. Die Spiele endeten gegen 18 Uhr, und für das leibliche Wohl sorgte wie immer Werner Sauerstein mit einer Auswahl an Speisen und Getränken.</p>
+        <h3>11.08.2024 — Sonntag</h3>
+        <p>Am Sonntag folgte das Doppelturnier mit <strong>14 Doppeln</strong>. Auch hier herrschte eine hervorragende Stimmung, und alle Teilnehmer waren zufrieden. Die Spiele wurden gegen 18:30 Uhr beendet.</p>
+        <p>Die Veranstalter <strong>Sebastian Otte</strong> und <strong>André Seiffert</strong> zeigten sich sehr zufrieden mit dem Verlauf des Turnierwochenendes und kündigten an, dass es auch im nächsten Jahr wieder ein LK Turnierwochenende geben wird.</p>
+        <p>Wir freuen uns schon jetzt auf das nächste Event und bedanken uns bei allen Teilnehmern und Helfern für ein gelungenes Turnierwochenende!</p>
+      </div>
+    </div>
+  </template>
+
+  <template id="news-pokalfinale">
+    <div class="news-modal__media">
+      <img src="Bilder/Pokalspiel in Pelkum.avif" alt="Pokalfinale">
+    </div>
+    <div class="news-modal__body">
+      <div class="news-modal__date">Rückblick Saison 2024</div>
+      <h2 class="news-modal__title">Pokalfinale in Münster & der Aufstieg der Herren 40 🏆</h2>
+      <div class="news-modal__content">
+        <p>Was für Wochen beim ASV Hamm Tennis — <strong>Pokalfinale in Münster und der Aufstieg der Herren 40!</strong></p>
+        <h3>Pokalfinale: Der Stolz schlägt die Trauer</h3>
+        <p>„Sau enge Spiele, keiner hat sich was vorzuwerfen. Es war eines Finales würdig 🎾🏆!"</p>
+        <p>„Wenn ich sehe wieviel Zuschauer da waren — Wahnsinn! Wir kämpfen weiter, dieser Verein macht einen stolz und glücklich 🎾🎾💪🏽."</p>
+        <p>„Unser Verein lebt echt durch die Unterstützung 🎉. Danke an alle wieder, hoffentlich morgen auch — wir kommen so schnell es geht aus Lünen 👌."</p>
+        <p><strong>ASV Hamm — anders als alle Vereine.</strong></p>
+        <h3>Herren 40 Aufstieg</h3>
+        <p>Parallel zum Pokalfinale gelang den Herren 40 in der Saison 2024 der Aufstieg. Ein Doppelschlag, der sich gewaschen hat — und der zeigt, was im Verein steckt.</p>
+      </div>
+    </div>
+  </template>
+
+  <template id="news-asv-challenge">
+    <div class="news-modal__media news-modal__media--strip">
+      <div><img src="Bilder/Challenge-bild1.avif" alt="ASV Challenge — Eindruck 1"></div>
+      <div><img src="Bilder/Challenge-bild 2.avif" alt="ASV Challenge — Eindruck 2"></div>
+      <div><img src="Bilder/challenge-bild 3.avif" alt="ASV Challenge — Eindruck 3"></div>
+    </div>
+    <div class="news-modal__body">
+      <div class="news-modal__date">ASV Challenge</div>
+      <h2 class="news-modal__title">Die ASV Challenge — Eindrücke aus dem Verein 🎾</h2>
+      <div class="news-modal__content">
+        <p>Drei Momente aus der Challenge: gemeinsame Aktionen, voller Einsatz und gute Laune. Wann immer der ASV ruft, sind die Mitglieder dabei — ob auf dem Platz, in der Halle oder bei Aktionen rund um den Verein.</p>
+        <p>Wir leben Tennis nicht nur auf dem Platz — wir leben Vereinskultur. Die Challenge ist nur ein Beispiel von vielen Momenten, die unseren ASV ausmachen.</p>
+        <p><strong>ASV Hamm — anders als alle Vereine.</strong></p>
+      </div>
+    </div>
+  </template>
+
+  <!-- Lightbox -->
+  <div class="lightbox" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Schließen">×</button>
+    <img src="" alt="">
+  </div>
+
+  <script src="assets/script.js?v=3"></script>
+</body>
+</html>
